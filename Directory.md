@@ -1,35 +1,47 @@
-<div style="font-family: monospace; line-height: 1.5;">
-
-<p>/spectral-string</p>
-
-<p>├── README.md<br>
-├── LICENSE<br>
-├── CONTRIBUTING.md</p>
-
-<p>├── /hardware<br>
-│   ├── mechanical_spec.md<br>
-│   ├── string_tension.md<br>
-│   ├── lever_tuning_system.md<br>
-│   ├── sensor_layout.md<br>
-│   └── BOM.md</p>
-
-<p>├── /firmware<br>
-│   ├── main.cpp<br>
-│   ├── /physics<br>
-│   │   ├── Constants.h<br>
-│   │   ├── PhiGovernor.cpp<br>
-│   │   └── PhiGovernor.h<br>
-│   ├── /input<br>
-│   │   ├── StringScanner.cpp<br>
-│   │   └── StringScanner.h<br>
-│   └── /nre<br>
-│       ├── NRE_Interface.h<br>
-│       └── NRE_StringAdapter.cpp</p>
-
-<p>├── /docs<br>
-│   ├── theory.md<br>
-│   ├── performance_modes.md<br>
-│   ├── tuning_system.md<br>
-│   └── instrument_philosophy.md</p>
-
-</div>
+spectral-string/
+├── README.md
+├── LICENSE
+├── CONTRIBUTING.md
+│
+├── hardware/
+│ ├── mechanical_spec.md
+│ ├── string_tension.md
+│ ├── lever_tuning_system.md
+│ ├── sensor_layout.md
+│ └── BOM.md
+│
+├── firmware/
+│ ├── main.cpp
+│ ├── SystemState.h
+│ ├── StateKernel.cpp
+│ │
+│ ├── physics/
+│ │ ├── Constants.h
+│ │ ├── PhiGovernor.cpp
+│ │ ├── PhiGovernor.h
+│ │ ├── GravityModel.cpp
+│ │ └── GravityModel.h
+│ │
+│ ├── input/
+│ │ ├── StringScanner.cpp
+│ │ ├── StringScanner.h
+│ │ ├── SubstrateClassifier.cpp
+│ │ └── SubstrateClassifier.h
+│ │
+│ ├── nre/
+│ │ ├── NRE_StateResolver.cpp
+│ │ ├── NRE_StateResolver.h
+│ │ ├── SpectralField.h
+│ │ └── FieldIntegrator.cpp
+│ │
+│ └── io/
+│ ├── AudioOutput.cpp
+│ ├── AudioOutput.h
+│ ├── SensorBus.cpp
+│ └── SensorBus.h
+│
+└── docs/
+├── theory.md
+├── performance_modes.md
+├── tuning_system.md
+└── instrument_philosophy.md
