@@ -44,4 +44,4 @@ All transformations are deterministic:
 - no randomized timbre modulation
 - no sample playback variance
 
-Every input state maps to a reproducible spectral output.
+Every instantaneous system state maps to a reproducible spectral output.
