@@ -12,13 +12,13 @@ Spectral String is a family of single- and dual-string instruments that operate 
 </p>
 
 <p>
-Unlike MIDI controllers or sample-trigger systems, Spectral String produces sound through a <strong>continuous interaction between mechanical excitation and deterministic synthesis</strong>.
-The performer excites a real string; the system resolves that excitation into a stable spectral field governed by physical constants.
+Unlike MIDI controllers or sample-trigger systems, Spectral String produces sound through a <strong>continuous interaction between mechanical excitation and deterministic spectral resolution</strong>.
+The performer excites a real string; the system resolves that excitation into a stable harmonic field governed by physical boundary conditions.
 </p>
 
 <p>
 The instrument is playable <strong>without electricity</strong>, and remains a complete acoustic object.
-The electronic system extends—not replaces—the acoustic behavior.
+Electronics extend spectral interpretation—they do not define sound production.
 </p>
 
 <hr>
@@ -27,25 +27,20 @@ The electronic system extends—not replaces—the acoustic behavior.
 
 <h3>Monos (1-String)</h3>
 
-<p>A focused, single-line instrument.</p>
-
 <ul>
-  <li>Continuous pitch control (fretless)</li>
-  <li>Maximum resolution and dynamic sensitivity</li>
-  <li>Suitable for solo performance and extended technique</li>
+  <li>Single continuous excitation domain</li>
+  <li>Fretless spatial pitch control</li>
+  <li>Maximum resolution of micro-gesture input</li>
 </ul>
 
 <hr>
 
 <h3>Duos (2-String)</h3>
 
-<p>A dual-line harmonic instrument.</p>
-
 <ul>
-  <li>Independent string excitation</li>
-  <li>Interval structures derived from the Golden Ratio (φ)</li>
-  <li>True stereo spectral output</li>
-  <li>Designed for ensemble and compositional work</li>
+  <li>Dual independent excitation channels</li>
+  <li>Interval behavior derived from deterministic proportional scaling (including φ-based mappings)</li>
+  <li>Cross-string harmonic interaction as a structural feature, not layering</li>
 </ul>
 
 <hr>
@@ -54,54 +49,49 @@ The electronic system extends—not replaces—the acoustic behavior.
 
 <h3>1. Continuous Excitation</h3>
 
-<p>The instrument responds to:</p>
-
 <ul>
   <li>plucking</li>
   <li>striking</li>
   <li>sliding</li>
   <li>pressure variation</li>
-  <li>(optional) bowing</li>
+  <li>optional bowing</li>
 </ul>
 
 <p>
 There are no discrete trigger zones.<br>
-All interaction is continuous and physically grounded.
+All interaction is spatially continuous and mechanically grounded.
 </p>
 
 <hr>
 
 <h3>2. Deterministic Spectral Mapping</h3>
 
-<p>Pitch is derived from physical constants:</p>
+<p>Output is derived from physical excitation parameters mapped through deterministic constants and proportional systems.</p>
 
 <ul>
-  <li>Speed of light (c)</li>
-  <li>Visible wavelength domain (400–700 nm)</li>
-  <li>Golden Ratio (φ)</li>
+  <li>physical string length</li>
+  <li>tension state</li>
+  <li>excitation position</li>
+  <li>harmonic ratio structures</li>
 </ul>
 
 <p>
 The system does not interpret input.<br>
-It computes it.
+It resolves it.
 </p>
 
 <hr>
 
 <h3>3. Acoustic Authority</h3>
 
-<p>
-The instrument is designed to function as a <strong>serious acoustic object</strong>:
-</p>
-
 <ul>
-  <li>playable without power</li>
-  <li>stable mechanical response</li>
-  <li>tactile feedback governs performance</li>
+  <li>fully playable without power</li>
+  <li>mechanically stable under dynamic excitation</li>
+  <li>tactile response is primary feedback channel</li>
 </ul>
 
 <p>
-Electronics extend the instrument’s harmonic behavior—they do not define it.
+Electronics extend harmonic interpretation—they do not replace acoustic behavior.
 </p>
 
 <hr>
@@ -113,12 +103,12 @@ A physical lever provides instantaneous switching between reference systems:
 </p>
 
 <ul>
-  <li><strong>A = 440 Hz</strong> (modern ensemble standard)</li>
-  <li><strong>A = 415 Hz</strong> (Baroque / solo reference)</li>
+  <li><strong>A = 440 Hz</strong> (modern ensemble reference)</li>
+  <li><strong>A = 415 Hz</strong> (historical / solo reference)</li>
 </ul>
 
 <p>
-This is implemented as a <strong>global spectral scaling factor</strong>, not mechanical retuning.
+This is implemented as a <strong>global spectral reinterpretation layer</strong>, not mechanical retuning.
 </p>
 
 <p>
@@ -126,91 +116,98 @@ Result:
 </p>
 
 <ul>
-  <li>no physical instability</li>
-  <li>no performance interruption</li>
-  <li>immediate harmonic shift</li>
+  <li>no physical re-tensioning</li>
+  <li>no interruption of performance state</li>
+  <li>instant harmonic frame shift</li>
 </ul>
 
 <hr>
 
 <h2>Performance Modes</h2>
 
-<h3>Horizontal Mode</h3>
+<h3>Planar Interaction Mode</h3>
 <ul>
-  <li>Guqin-like interaction</li>
-  <li>high precision control</li>
-  <li>compositional use</li>
+  <li>instrument referenced to a stable horizontal plane</li>
+  <li>precision pressure-based control</li>
+  <li>high-resolution positional articulation</li>
 </ul>
 
-<h3>Vertical Mode</h3>
+<h3>Vector Interaction Mode</h3>
 <ul>
-  <li>performance projection</li>
-  <li>physical articulation</li>
-  <li>stage use</li>
+  <li>instrument orientation affects excitation response</li>
+  <li>gravity influences damping and energy distribution</li>
+  <li>performance emphasizes force direction over surface mapping</li>
 </ul>
 
 <hr>
 
 <h2>System Architecture</h2>
 
-</div>[String Excitation]
-↓
-[Position + Pressure Sensing]
-↓
-[String Scanner]
-↓
+<pre>
+[Mechanical Excitation]
+        ↓
+[Continuous Sensing Layer]
+        ↓
 [Nodal Response Engine (NRE)]
-↓
-[Phi-Governed Spectral Synthesis]
-↓
+        ↓
+[Deterministic Spectral Mapping Layer]
+        ↓
 [Audio Output]
-<P>
-  
----
+</pre>
 
-## Relationship to CajonBlocks
+<p>
+Each stage preserves physical continuity. No event triggering is used.
+</p>
 
-Spectral String and CajonBlocks share a common core:
+<hr>
 
-> **Nodal Response Engine (NRE)**
+<h2>Relationship to CajonBlocks</h2>
 
-- CajonBlocks: discrete spatial nodes (percussive)
-- Spectral String: continuous spatial input (string-based)
+<p>
+Spectral String and CajonBlocks share a common computational core:
+</p>
 
-Both systems operate under the same deterministic framework.
+<p><strong>Nodal Response Engine (NRE)</strong></p>
 
----
+<ul>
+  <li>CajonBlocks: discrete spatial excitation nodes</li>
+  <li>Spectral String: continuous linear excitation domain</li>
+</ul>
 
+<p>
+Both systems operate under the same deterministic physical-to-spectral resolution model.
+</p>
 
----
+<hr>
 
-## Build Philosophy
+<h2>Build Philosophy</h2>
 
-This repository is released to:
+<ol>
+  <li>Establish prior art in deterministic acoustic systems</li>
+  <li>Support independent luthiers and builders</li>
+  <li>Define a reproducible class of physical spectral instruments</li>
+</ol>
 
-1. Establish prior art in deterministic instrument design  
-2. Enable independent builders and luthiers  
-3. Define a new class of acoustic–spectral instruments  
+<hr>
 
-The reference implementation defines the standard.
+<h2>Constraint Statement</h2>
 
----
-
-## Constraint Statement
-
-This is not a controller.  
-This is not a sample trigger.  
+<p>
+This is not a controller.<br>
+This is not a sample playback system.<br>
 This is not an effects processor.
+</p>
 
-Spectral String is a **complete instrument system**.
+<p><strong>Spectral String is a complete acoustic–spectral instrument system.</strong></p>
 
----
+<hr>
 
-## Status
+<h2>Status</h2>
 
-Active development.
+<p>Active development.</p>
 
-Reference hardware and firmware specifications are provided for independent construction and validation.
+<p>
+Reference mechanical and firmware specifications define the implementation baseline.
+</p>
 
-
-</P>
+</div>
