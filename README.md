@@ -133,3 +133,61 @@ This operates as a **global spectral reinterpretation state**, not a physical re
 ---
 
 ## System Architecture
+
+Mechanical Excitation<BR>
+↓<BR>
+Continuous Physical Response<BR>
+↓<BR>
+Nodal Response Engine (optional interpretation layer)<BR>
+↓<BR>
+Spectral Mapping System<BR>
+↓<BR>
+Audio Output<BR>
+
+
+Each stage preserves physical continuity.
+
+No event-trigger abstraction is used in the acoustic layer.
+
+---
+
+## Relationship to CajonBlocks
+
+Spectral String and CajonBlocks share a common underlying model:
+
+**Nodal Response Engine (NRE)**
+
+- CajonBlocks: discrete spatial excitation nodes  
+- Spectral String: continuous linear excitation domain  
+
+Both systems implement the same physical-to-spectral resolution principles, expressed through different geometries.
+
+---
+
+## Build Philosophy
+
+1. Define a reproducible class of acoustic instruments  
+2. Support independent builders and luthiers  
+3. Maintain deterministic mechanical-to-spectral behavior across builds  
+
+---
+
+## Constraint Statement
+
+This system is:
+
+- not a controller  
+- not a sample playback system  
+- not an effects processor  
+
+**Spectral String is a complete acoustic instrument system with optional computational extension.**
+
+---
+
+## Status
+
+Active development.
+
+Mechanical specifications define the physical baseline.  
+Firmware defines optional interpretation layers only.
+
