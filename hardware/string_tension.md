@@ -10,6 +10,17 @@ Tension defines:
 - attack transient shape
 - harmonic convergence stability
 
+## 1.1 Substrate Dependency
+
+Tension values are defined as mechanical input constraints, not absolute behavioral guarantees.
+
+Actual response depends on string substrate class:
+
+- Low-Entropy (Steel-Class): linear response within defined bands
+- Controlled-Instability (Hybrid Gut-Class): nonlinear response with bounded drift
+- High-Entropy (Gut-Class): time-dependent response with environmental coupling
+
+Tension remains the governing physical input, but spectral stability is resolved at the NRE layer.
 ---
 
 ## 2. Tension Bands
